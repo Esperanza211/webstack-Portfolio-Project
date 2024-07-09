@@ -13,7 +13,11 @@ nav .logo img{
 }
 nav.search{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+   
 }
 nav .search input,
 nav .search button{
