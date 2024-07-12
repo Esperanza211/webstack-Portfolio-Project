@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/recipes.css">
+
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <title>Moroccan Recipes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="search">
+                <input type="text" id="recipes" placeholder="Put name of recipe here..." value="">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="recipes.html">Recipes</a>
+                        <ul class="dropdown">
+                            <li><a href="#" data-category="all">All Recipes</a></li>
+                            <li><a href="#" data-category="salads">Salads and Condiments</a></li>
+                            <li><a href="#" data-category="appetizers">Appetizers</a></li>
+                            <li><a href="#" data-category="tagines">Tagines</a></li>
+                            <li><a href="#" data-category="breads">Breads and Soups</a></li>
+                            <li><a href="#" data-category="sweets">Sweets, Pastries and Drinks</a></li>
+                            <li><a href="#" data-category="latest">Latest Recipes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html">Must Try</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="recipe-categories">
+            <h2>Recipes</h2>
+            <div class="category-links">
+                <a href="#" data-category="all">All Recipes</a>
+                <a href="#" data-category="salads">Salads and Condiments</a>
+                <a href="#" data-category="appetizers">Appetizers</a>
+                <a href="#" data-category="tagines">Tagines</a>
+                <a href="#" data-category="breads">Breads and Soups</a>
+                <a href="#" data-category="sweets">Sweets, Pastries and Drinks</a>
+                <a href="#" data-category="latest">Latest Recipes</a>
+            </div>
+        </div>
+        <div class="recipes" id="recipes-list">
+            <!-- Recipes will be dynamically inserted here -->
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer">
+            <div class="cut">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="services.html">Menu</a></li>
+                            <li><a href="signup.html">Contact Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="contact.html">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Refund Policy</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Moroccan Recipes. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

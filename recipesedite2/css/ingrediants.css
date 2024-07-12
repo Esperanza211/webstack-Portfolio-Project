@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("section/header.css");
+
+:root {
+    --poppins: "Poppins", sans-serif;
+    --bgColor: #121218;
+    --textColor: #fff;
+    --primary-color: #c38e07;
+    --accent-color: #eead0a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins);
+}
+
+body {
+    background-color: beige;
+    color: #333;
+}
+
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav .navigation ul {
+    width: 100%;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+nav .navigation > ul > li {
+    display: inline-block;
+    margin: 0 4rem;
+}
+
+nav .navigation > ul > li > a {
+    text-decoration: none;
+    color: rgb(132, 67, 2);
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s ease;
+    font-style: italic;
+}
+
+nav .navigation > ul > li > a:hover {
+    color: #eead0a;
+}
+
+
+.recipe-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+}
+
+.recipe-container h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center the items vertically */
+    margin-bottom: 2rem;
+}
+
+.recipe-content .ingredients {
+    width: 60%;
+}
+
+.recipe-content .ingredient-image {
+    width: 35%;
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+.recipe-content .ingredient-image img {
+    width: 100%;
+    max-width: 300px; /* Limit the maximum width of the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-container h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 2rem;
+}
+
+.recipe-container ul {
+    list-style: disc;
+    margin-left: 2rem;
+    color: #555;
+}
+
+.recipe-container ul li {
+    margin-bottom: 0.5rem;
+}
+
+.recipe-container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 1rem;
+}
+
+.video-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+video-container iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    color: #b86002;
+    padding: 30px 0; /* Adjusted padding */
+}
+
+.footer {
+    padding: 20px 10px; /* Adjusted padding */
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer .footer-col {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+    vertical-align: top;
+}
+
+.footer-col h4 {
+    font-size: 16px; /* Adjusted font size */
+    margin-bottom: 20px; /* Adjusted margin */
+    text-transform: capitalize;
+    color: #c38e07;
+    font-weight: 500;
+    position: relative;
+    font-style: italic;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 5px; /* Adjusted margin */
+}
+
+.footer ul li a {
+    font-size: 14px; /* Adjusted font size */
+    text-transform: capitalize;
+    color: #080706;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: var(--primary-color);
+    padding-left: 10px;
+}
+
+.footer .social-links a {
+    display: inline-block;
+    height: 30px; /* Adjusted size */
+    width: 30px; /* Adjusted size */
+    background-color: rgba(200, 149, 7, 0.2);
+    margin: 0 5px 5px 0; /* Adjusted margin */
+    text-align: center;
+    line-height: 30px; /* Adjusted line height */
+    border-radius: 50%;
+    color: #060505;
+    transition: all 0.5s ease;
+}
+
+.footer .social-links a:hover {
+    color: #000000;
+    background-color: #f49609;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px; /* Adjusted font size */
+}
+
+.footer-bottom p {
+    margin: 0;
+}
