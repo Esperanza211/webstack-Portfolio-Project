@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Chicken Pastilla',
             description: 'A delicious Moroccan pie filled with chicken and almonds.',
             image: 'img/bestilt djaj.jpg',
-            link: 'x.html' // Add link for the recipe
+            link: 'bastila.html' // Add link for the recipe
         },
         {
             category: 'tagines',
@@ -26,22 +26,23 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'Moroccan Msamen',
             description: 'Traditional Moroccan bread perfect for any meal.',
             image: 'img/msamen.jpg',
-            link: 'x.html' // Add link for the recipe
+            link: 'msamn.html' // Add link for the recipe
         },
         {
             category: 'sweets',
-            title: 'Baklava',
-            description: 'Sweet and flaky baklava with honey and nuts.',
-            image: 'img/baklava.jpg',
-            link: 'x.html' // Add link for the recipe
+            title: 'mhencha',
+            description: 'Sweet and flaky mhencha with honey and nuts.',
+            image: 'img/mhencha.jpg',
+            link: 'mhencha.html' // Add link for the recipe
         },
         {
             category: ['breads', 'latest'],
             title: 'Harira Soup',
             description: 'A hearty and comforting Moroccan soup.',
             image: 'img/harira.jpg',
-            link: 'x.html' // Add link for the recipe
-        }
+            link: 'harira.html' // Add link for the recipe
+        },
+        
     ];
 
     const recipeList = document.getElementById('recipes-list');
